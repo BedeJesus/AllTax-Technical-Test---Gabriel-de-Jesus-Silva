@@ -14,7 +14,7 @@
 
 <h2>Tecnologias utilizadas:</h2>
     - React JS<br>
-    - Typscript<br>
+    - Typescript<br>
     <h2>Bibliotecas utilizadas:</h2>
     - Styled Components (estilização)<br>
     - Apex Charts (criação do gráfico)<br>
