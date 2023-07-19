@@ -25,16 +25,18 @@ export default function Controller() {
     }
 
     function handleProdut(e: React.FormEvent<HTMLSelectElement>) {
+
         const value = (e.target as HTMLInputElement).value
-        value === 'product_one' ? setProduct(category.product_one) : setProduct(category.product_two)
+        value === category.product_one.title ? setProduct(category.product_one) : setProduct(category.product_two)
+
     }
 
     function handleBrand(e: React.FormEvent<HTMLSelectElement>) {
         const value = (e.target as HTMLInputElement).value
 
-        if (value === 'brand_one') {
+        if (value === product.brand_one.title) {
             setBrand(product.brand_one)
-        } else if (value === 'brand_two') {
+        } else if (value === product.brand_two.title) {
             setBrand(product.brand_two)
         } else {
             setBrand(product.brand_three)
@@ -56,19 +58,19 @@ export default function Controller() {
 
                 <Option>
                     <span>Produto:</span>
-                    <select name="product" id="product" onChange={handleProdut}>
-                        <option value={'product_one'}>{category?.product_one?.title}</option>
-                        <option value={'product_two'}>{category?.product_two?.title}</option>
+                    <select name="product" id="product" value={product.title} onChange={handleProdut}>
+                        <option value={category.product_one.title}>{category.product_one.title}</option>
+                        <option value={category.product_two.title}>{category.product_two.title}</option>
                     </select>
                 </Option>
 
 
                 <Option>
                     <span>Marca:</span>
-                    <select name="brand" id="brand" onChange={handleBrand}>
-                        <option value={'brand_one'}>{product?.brand_one?.title}</option>
-                        <option value={'brand_two'}>{product?.brand_two?.title}</option>
-                        <option value={'brand_three'}>{product?.brand_three?.title}</option>
+                    <select name="brand" id="brand" value={brand.title} onChange={handleBrand}>
+                        <option value={product.brand_one.title}>{product.brand_one.title}</option>
+                        <option value={product.brand_two.title}>{product.brand_two.title}</option>
+                        <option value={product.brand_three.title}>{product.brand_three.title}</option>
                     </select>
                 </Option>
 

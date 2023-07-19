@@ -88,17 +88,12 @@ export const Box = styled.div`
   position:absolute;
   
   height: 14em;
-  top: 3.7rem;
+  top: 3.9rem;
   left: 0;
-  width: 25rem;
   transition: .3s;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 
-  @media(max-width : 850px) {
-    width: 15em;
-  } 
-    
 `
 
 export const Options = styled.div`
