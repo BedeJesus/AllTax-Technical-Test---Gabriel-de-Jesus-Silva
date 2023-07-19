@@ -1,0 +1,51 @@
+{
+    "title":"roupa",
+    "product_one": {
+        "title": "Camisa",
+        "brand_one": {
+            "title":"Camisa 1",
+            "january": 100,
+            "february": 200,
+            "march": 150,
+            "april": 300
+        },
+        "brand_two": {
+            "title":"Camisa 2",
+            "january": 200,
+            "february": 150,
+            "march": 300,
+            "april": 200
+        },
+        "brand_three": {
+            "title":"Camisa 3",
+            "january": 150,
+            "february": 250,
+            "march": 200,
+            "april": 300
+        }
+    },
+    "product_two": {
+        "title": "Calca",
+        "brand_one": {
+            "title":"Calca 1",
+            "january": 200,
+            "february": 150,
+            "march": 300,
+            "april": 100
+        },
+        "brand_two": {
+            "title":"Calca 2",
+            "january": 100,
+            "february": 150,
+            "march": 200,
+            "april": 300
+        },
+        "brand_three": {
+            "title":"Calca 3",
+            "january": 200,
+            "february": 300,
+            "march": 150,
+            "april": 100
+        }
+    }
+}

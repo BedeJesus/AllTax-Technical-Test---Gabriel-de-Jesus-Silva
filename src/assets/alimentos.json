@@ -1,0 +1,51 @@
+{
+    "title": "alimento",
+    "product_one": {
+        "title": "Cereal",
+        "brand_one": {
+            "title": "Cereal 1",
+            "january": 250,
+            "february": 100,
+            "march": 300,
+            "april": 250
+        },
+        "brand_two": {
+            "title": "Cereal 2",
+            "january": 100,
+            "february": 200,
+            "march": 300,
+            "april": 100
+        },
+        "brand_three": {
+            "title": "Cereal 3",
+            "january": 150,
+            "february": 200,
+            "march": 25,
+            "april": 300
+        }
+    },
+    "product_two": {
+        "title": "Fruta",
+        "brand_one": {
+            "title": "Fruta 1",
+            "january": 200,
+            "february": 250,
+            "march": 100,
+            "april": 150
+        },
+        "brand_two": {
+            "title": "Fruta 2",
+            "january": 150,
+            "february": 200,
+            "march": 300,
+            "april": 250
+        },
+        "brand_three": {
+            "title": "Fruta 3",
+            "january": 150,
+            "february": 200,
+            "march": 250,
+            "april": 300
+        }
+    }
+}
